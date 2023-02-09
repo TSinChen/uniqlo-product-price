@@ -123,6 +123,7 @@ function App() {
         className={styles.form}
       >
         <TextField
+          type="number"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
           size="small"
