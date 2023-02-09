@@ -140,8 +140,8 @@ function App() {
         </Button>
       </form>
       <div className={styles.currency}>
-        <p>{`1 臺幣 = ${jpyCurrency} 日元`}</p>
-        <p>{`1 日元 = ${(1 / jpyCurrency).toFixed(2)} 臺幣`}</p>
+        <p>{`1 臺幣 = ${jpyCurrency} 日幣`}</p>
+        <p>{`1 日幣 = ${(1 / jpyCurrency).toFixed(2)} 臺幣`}</p>
       </div>
       <div className={styles.productDetail}>
         {productDetailTW ? (
