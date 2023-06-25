@@ -135,6 +135,7 @@ function App() {
               </IconButton>
             ),
           }}
+          placeholder="請輸入商品編號"
         />
         <Button variant="outlined" type="submit" sx={{ fontSize: '16px' }}>
           查詢
